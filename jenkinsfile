@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("git"){
             steps {
-                git branch: 'main', credentialsId: 'gitcred', url: 'https://github.com/sphurthigithub/GitHub-Tutorial.git'
+                git branch: 'main', credentialsId: 'gitcred', url: 'https://github.com/sphurthigithub/New-repo2.git'
             }
         }
     }
